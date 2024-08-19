@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* border: 2px rgb(234, 40, 230) solid; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-logo{
+    height: 2.5em;
+    margin-left: 3em;
+    /* width: 210px; */
+    /* border: 2px wheat solid; */
+}
+
+.long-nav{
+    /* border: 2px wheat solid; */
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    width: 55em;
+}
+
+.element{
+    
+    height: 46em;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first{
+    background-image: url('photos/1.jpg');
+    
+}
+
+.second{
+    background-image: url('photos/2.jpg');
+    
+}
+
+.third{
+    background-image: url('photos/3.jpg');
+}
+
+.fourth{
+    background-image: url('photos/4.jpg');
+}
+
+.fifth{
+    background-image: url('photos/5.jpg');
+}
+
+.sixth{
+    background-image: url('photos/6.jpg');
+}
+
+.left-div{
+    /* border: 2px red solid; */
+    display: flex;
+}
+
+.u-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px wheat solid; */
+}
+
+.right-div{
+    /* border: 2px red solid; */
+    width: 200px;
+    display: flex;
+    justify-content: end;
+    /* height: 30px; */
+    margin-right: 1em;
+}
+
+.fa-solid.fa-bars{
+    margin-left: 2em;
+    height: 10px;
+}
+
+p{
+    font-weight: bold;
+    font-size: .85em;
+}
+
+.inner-elements{
+    height: 31.5em;
+    width: 87%;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.inner-1{
+    font-size: 20px;
+    /* width: 10%; */
+    /* border: 2px black solid; */
+    margin-bottom: .8em;
+}
+
+.inner-2{
+    font-size: 2.5em;
+    font-weight: bolder;
+    width: 40%;
+    /* border: 2px black solid; */
+    margin-bottom: .4em;
+}
+
+.inner-3{
+    font-weight: bold;
+    font-size: .85em;
+    height: 50px;
+    border: 2px white solid;
+    width: 145px;
+    text-align: center;
+    align-content: center;
+}
