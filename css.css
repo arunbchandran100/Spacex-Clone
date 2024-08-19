@@ -132,3 +132,35 @@ p{
     text-align: center;
     align-content: center;
 }
+
+.footer{
+    background-color: #000000;
+    height: 5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-in{
+    display: flex;
+    width: 28%;
+    height: 3em;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 2em; */
+}
+
+.footer-items{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-items-no-bold{
+    font-size: .7em;
+    
+}
+
+html{
+    background-color: #000000;
+}
