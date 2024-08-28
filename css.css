@@ -133,6 +133,11 @@ p{
     align-content: center;
 }
 
+.inner-3:hover{
+    background-color: white;
+    color: black;
+}
+
 .footer{
     background-color: #000000;
     height: 5em;
